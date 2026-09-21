@@ -1,0 +1,12 @@
+{
+  "name": "depgraph",
+  "version": "1.0.0",
+  "description": "Offline dependency graph visualizer: scans package.json / go.mod / Cargo.toml trees and renders a deterministic SVG",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.18.0" },
+  "bin": { "depgraph": "src/cli.ts" },
+  "scripts": {
+    "test": "node --test tests/"
+  }
+}
